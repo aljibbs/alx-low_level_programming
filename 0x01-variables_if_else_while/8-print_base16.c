@@ -9,14 +9,18 @@
 
 int main(void)
 {
+	int d;
+	char val;
 
-	char c;
+	for (d = '0'; d <= '9'; d++)
+	{
+		putchar(d);
+	}
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-
-	for (c = 'A'; c <= 'Z'; c++)
-	putchar(c);
-	putchar('\n');
+	for (val = 'a'; val <= 'f'; val++)
+	{
+		putchar(val);
+		putchar('\n');
+	}
 	return (0);
 }

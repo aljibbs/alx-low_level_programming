@@ -1,18 +1,20 @@
 #include <stdio.h>
+
 /* more headers goes there */
 /**
  * main - Main function
- * Return: 0
+ * Return: Success
  */
 /* betty style doc for function main goes there */
 
 int main(void)
 {
-	/* your code goes there */
-	char c;
+	int i;
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+		printf("\n");
+	}
 	return (0);
 }
