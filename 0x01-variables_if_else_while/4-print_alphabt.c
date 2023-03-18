@@ -16,7 +16,7 @@ int main(void)
 
 	for (val = 'a'; val <= 'z'; val++)
 	{
-		if (val != q && val != q)
+		if (val != e && val != q)
 		{
 			putchar(val);
 			putchar('\n');
