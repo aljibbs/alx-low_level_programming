@@ -19,8 +19,8 @@ int main(void)
 		if (val != e && val != q)
 		{
 			putchar(val);
-			putchar('\n');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
