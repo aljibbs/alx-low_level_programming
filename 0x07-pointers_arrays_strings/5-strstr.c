@@ -12,12 +12,14 @@ char *_strstr(char *haystack, char *needle)
 		char *l = haystack;
 		char *p = needle;
 
+		/* Looping */
 		while (*l == *p && *p != '\0')
 		{
 			l++;
 			p++;
 		}
 
+		/* conditional check */
 		if (*p == '\0')
 			return (haystack);
 	}
