@@ -24,5 +24,5 @@ int _sqrtRecur(int n, int i)
 		return (-1);
 	if (i * i == n)
 		return (i);
-	return (_sqrt(n, i + 1));
+	return (_sqrtRecur(n, i + 1));
 }
